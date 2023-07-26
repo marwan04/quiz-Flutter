@@ -19,7 +19,7 @@ import 'package:project2/questions_identifier.dart';
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           QuestionsIdentifier(
-            isCorrectAnswer, itemData['question_index'] as int,
+            isCorrectAnswer, itemData['index'] as int,
           ),
           const SizedBox(width: 20),
           Expanded(
